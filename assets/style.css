@@ -6,13 +6,22 @@ margin: 0;
 
 .header{
     padding: 30px;
+    font-size: 40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #336ce8;
-    color: black;
+    color: whitesmoke;
+}
+
+/*need to find a good hero img*/
+.hero{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(./images/lunasbbq.HEIC);
+    background-position: center;
 }
 
 .footer{
     padding: 20px;
     text-align: center;
-
 }
