@@ -13,7 +13,6 @@
         <h1>Luna's BBQ and More!</h1>
         <div>
             <ul>    
-                <!--need to add hrefs-->
                 <li>
                     <a href="#Our-Mission">Our Mission</a>
                 </li>
@@ -26,6 +25,7 @@
             </ul>
         </div>
     </header>
+    <!--need to add alt attributes-->
     <div class="hero"></div>
     <main class="content">
         <article id="Our-Mission" class="article">
@@ -59,8 +59,34 @@
         <article id="Contact-Us" class="aside-article"> 
                 <img src="./assets/images/contact-us-20.png" />
                 <h3>Contact Us</h3>
-                <!--To do: complete form-->
-                <form ></form>
+                <form class="form-style">
+                    <fieldset>
+                        <legend>Book your event today!</legend>
+                        <br>
+                        <br>
+                        <label for="name">
+                            Name:<input type="text" id="name" />
+                        </label>
+                        <br>
+                        <br>
+                        <label for="phone">
+                            Phone Number:<input type="phone" id="phone" />
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            Email Address:<input type="text" id="email-address" />
+                        </label>    
+                        <br>
+                        <br>
+                        <label for="comments">
+                            Comments:<input type="text" id="comments" />
+                        </label>
+                    </fieldset>
+                </form>
+                <br>
+                <!--style button and add 'id' to connect button to form-->
+                <button type="submit">submit</button>
             </article>
         </aside>
     

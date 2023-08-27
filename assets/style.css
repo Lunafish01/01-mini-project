@@ -90,6 +90,22 @@ p {
     max-width: 150px;
 }
 
+.form-style{
+    font-size: 25px;
+}
+
+/* Need to work on styling input fields, button and fieldset boundaries
+
+.form-style fieldset{
+    min-inline-size: 200px;
+    writing-mode: horizontal-tb;
+}
+
+.form-style legend {
+    display: inline-block;
+}
+*/
+
 .article {
     margin-bottom: 25px;
     padding: 50px;
