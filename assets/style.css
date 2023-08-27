@@ -42,6 +42,23 @@ margin: 0;
     background-position: center;
 }
 
+.article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*need to figure out why this selector isnt centering the imgs in the articles sections*/
+.float-left {
+    float: left;
+    margin: 25px;
+    height: 200px;
+    width: 200px;
+}
+
 .footer{
     padding: 20px;
     text-align: center;
